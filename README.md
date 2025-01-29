@@ -32,10 +32,12 @@ The first thing you need to do is register as a new user, without this you will 
     ```txt
     git clone https://github.com/patryk-j/vinyl-world-fe/
     ```
-1.1 Clone Backend repository
+    
+2. Clone Backend repository
        ```txt
     git clone https://github.com/patryk-j/vinyl-world-be
     ```
+    
 3. Install requierd packages using npm:
 
     ```txt
