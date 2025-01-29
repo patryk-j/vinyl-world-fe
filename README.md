@@ -5,7 +5,7 @@
 
 ## Description
 
-The main goal of the Vinyl World application is to simplify vinyl record rentals and streamline the entire rental process. The features offered by the application allow users to conveniently access its tools and resources. It is designed with ease of use in mind, featuring an intuitive interface that provides easy access to functions and tools on the platform.
+The main goal of the Vinyl World application is to simplify vinyl record rentals and streamline the entire rental process. The features offered by the application allow users to conveniently access its tools and resources. It is designed with ease of use in mind, featuring an intuitive interface that provides easy access to functions and tools on the platform. Additionally, this project was developed with particular attention to heterogeneity, which is based on the unique use of React.js as the core framework and Vue.js as an additional language within a single project, something that is not commonly seen in commercial projects.
 
 
 
