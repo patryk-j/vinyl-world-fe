@@ -49,7 +49,3 @@ To run the application simply paste and run the following command:
 ```txt
     npm start
 ```
-
-## License
-
-Distributed under the MIT License. See `LICENSE.txt`
