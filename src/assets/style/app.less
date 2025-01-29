@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/vinyl.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  color: white;
+}
+
+.ant-message {
+  margin-top: 7vh;
+}
+
+.global-centering {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-page-text {
+  font-size: 3rem;
+  line-height: 1;
+  color: white;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  padding-top: 2.5rem;
+}
+
+.ant-menu-item-selected:not(.ant-menu-item-disabled) {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.home-page-button {
+  background-color: #2a314d;
+}
+
+.without-hover {
+  background-color: #2a314d;
+}
+
+.home-page-button:hover {
+  background-color: #3c4566;
+}
+
+.rental-button {
+  background-color: #2a314d;
+}
