@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# `Vinyl World`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![homepage](https://github.com/user-attachments/assets/e9ca992e-43d0-4210-9f03-8e76fd8d923c)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+The main goal of the Vinyl World application is to simplify vinyl record rentals and streamline the entire rental process. The features offered by the application allow users to conveniently access its tools and resources. It is designed with ease of use in mind, featuring an intuitive interface that provides easy access to functions and tools on the platform.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- User registration
+- Profile edit (username and password)
+- Authentication using Express.js and MongoDB
+- Creating and deleting vinyls as Admin
+- List of vinyls
+- Validation of forms and data
+- Adding and deleting vinyls
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you want, you can test the vinyl-world application clone the repository, install and run the application (instructions below).
+The first thing you need to do is register as a new user, without this you will not be able to access the whole functionality of the site. The form is validated with the username and password.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+1. Clone repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```txt
+    git clone https://github.com/patryk-j/vinyl-world-fe/
+    ```
+1.1 Clone Backend repository
+       ```txt
+    git clone https://github.com/patryk-j/vinyl-world-be
+    ```
+3. Install requierd packages using npm:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```txt
+    npm install
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To run the application simply paste and run the following command:
 
-## Learn More
+```txt
+    npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Distributed under the MIT License. See `LICENSE.txt`
