@@ -33,8 +33,9 @@ The first thing you need to do is register as a new user, without this you will 
     git clone https://github.com/patryk-j/vinyl-world-fe/
     ```
     
-2. Clone Backend repository
-       ```txt
+2. Clone backend repository
+
+    ```txt
     git clone https://github.com/patryk-j/vinyl-world-be
     ```
     
